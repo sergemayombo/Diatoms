@@ -1,6 +1,6 @@
 # Epiphytic diatoms associated with the south African kelp
-# Diatom data exploration, analysis and presentation
-# Mayombo Ntamnwe
+# Diatom data exploration, analysis and presentation.
+# Mayombo Ntambwe
 
 # 11th Febraury 2018
 
@@ -11,7 +11,7 @@ library(ggplot2)
 library(ggdendro)
 library(tcltk)
 library(BiodiversityR)
-library(readr)
+library(readr)    
 
 # read in the data
 counts <- read_csv("Diatom_counts_tidy.csv")
